@@ -1,0 +1,187 @@
+/*Recuerda utilizar el comando filter para alterar propiedades de imagenes*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: MontHector;
+    color: #333333cc;
+}
+body {
+    scroll-behavior: smooth;
+/* sirve para que el movimiento sea fluido al llevar a otro lado 
+en el href poner #nombre de la seccion para llevar a esa area */
+
+    
+}
+
+/*Iniciando header*/
+.header-top {
+    margin-block: .5rem;
+    font-size: .8rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 0.1px solid #fdd86e;
+    padding-block: .5rem;
+}
+
+.top-left {
+    display: flex;
+    justify-content: flex-end;
+    gap: .5rem;
+    padding-left: 6rem;
+
+    & .itema {
+        font-weight: 600;
+        font-size: .8rem;
+        opacity: 60;
+    }
+}
+.itemb {
+    border-left: 0.1px solid #fdd86e;
+    padding-left: .30rem;
+}
+.top-right {
+    display: flex;
+    justify-content: flex-start;
+    gap: .5rem;
+    padding-right: 6rem;
+    & .itemc {
+        border-right: 1px solid #fdd86e;
+        padding-right: .30rem;
+    }
+}
+
+.navega {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-inline: 6rem;
+    box-shadow: 0px 5px 12px black;
+}
+.lu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.formulario {
+    display: flex;
+    border: 1px solid blue;
+    border-radius: 50px;
+    padding-inline: .5rem;
+    
+}
+.busca {
+    min-width: 150  px;
+    padding: 2px;
+    border: none;
+}
+.bus {
+    padding: 2px;
+    border: none;
+    background-color: white;
+}
+/*eje x , eje y , opacidad (no puede crecer mas de lo que le pongas , color
+    probar el comando inset y otros )
+    box-shadow: 0px 3px 30px black;*/
+    /*border-bottom: 1px solid #fdd86e;
+        background-color: gray;
+        width: 1000px;
+        height: 400px;
+        padding-inline: 2rem;
+        box-shadow: 0px 5px 5px black;
+        overflow: hidden;
+
+        */
+/*cerrando header*/
+#main {
+    width: 100%;
+    height: 200rem;
+    background-color: #333333cc;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-inline: 2rem;
+    padding-block: 2rem;
+
+    box-shadow: 0px 5px 10px black;
+}
+
+
+.arti {
+    
+    width: 1000px;
+    height: 400px;
+    background-color: green;
+}
+
+
+
+
+.sect {
+    width: 85%;
+    height: 100%;
+    background-color: blue  ;
+}
+
+.contain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    
+}
+
+.cards {
+    width: 300px;
+    height: 400px;
+    background-color: gray;
+}
+
+.card-one {
+    display: flex;
+    position: relative;
+    bottom: top;
+    width: 300px;
+    height: 400px;
+}
+.aa {
+    position: absolute;
+    background-color: white;
+}
+
+
+
+/*Iniciando footer*/
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-block: 2rem;
+}
+
+.end {
+    font-size: 11px;
+    border-top: 1px solid #fdd86e;
+    padding-inline: 2rem;
+    padding-block: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*cerrando footer*/
